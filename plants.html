@@ -11,6 +11,12 @@
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" 
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+    <style>
+      .card{
+        float: left;
+      }
+    </style>
 </head>
 <body>
     <h1>Plants by Ajay Kumar Dhonthoju</h1>
@@ -50,7 +56,7 @@
     </div>
 
 
-    <table  class="table table-sm table-bordered border-primary table-striped table-hover">
+    <table  class="table caption-top table-sm table-bordered border-primary table-striped table-hover" style="text-align: center;">
       <caption>Table Showing some of the Plants Mountains and Lakes</caption>
       <tr class="bg-primary">
         <th  scope="col">Letter</th>
@@ -124,7 +130,77 @@
       </div>
     </div>
 
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+      aria-expanded="false">initial</button>
+      <ul class="dropdown-menu">
+        <li class="dropdown-list" href="basic.html">Baisc HTML Page</li>
+        <li class="dropdown-list" href="advanced.html">Advanced HTML Page</li>
+      </ul>
+    </div>
+
+    <form>
+      <div class="form-group">
+        <lablel for="exampleInputEmail" class="form-label">Email</lablel>
+        <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
+        <div class="form-text" id="emailHelp">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="form-group">
+        <lablel for="plant" class="form-label">Plant</lablel>
+        <input type="text" class="form-control" id="exampleInputplant" >Enter your plant
+      </div>
+
+      <br>
+      <div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label for="exampleCheck1" class="form-check-lable">Sign up for newsletter?</label>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </div>
+    </form>
+
+    <div class="card" style="width: 18rem;">
+      <img src="daylilly.jpg" class="card-img-top" alt="daylilly">
+      <div class="card-body">
+        <h5 class="card-title">DayLilly</h5>
+        <p class="card-text">A daylily or day lily is a flowering plant in the genus Hemerocallis /ˌ
+          hɛmɪroʊˈkælɪs/,[2] a member of the family Asphodelaceae, subfamily Hemerocallidoideae. 
+          Despite the common name, it is not in fact a lily. Gardening enthusiasts and horticulturists 
+          have long bred daylily species for their attractive flowers. Thousands of cultivars have been 
+          registered by local and international Hemerocallis societies.[3] Daylilies are perennial 
+          plants, whose name alludes to its flowers, which typically last about a day.</p>
+          <a href="https://en.wikipedia.org/wiki/Daylily" class="btn btn-primary">Go somewhere</a>
+      </div>
+
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="oak-leaf.jpg" class="card-img-top" alt="oak-leaf">
+      <div class="card-body">
+        <h5 class="card-title">Oak Leaf</h5>
+        <p class="card-text">An oak leaf cluster is a ribbon device to denote preceding decorations
+           and awards consisting of a miniature bronze or silver twig of four oak leaves with three 
+           acorns on the stem. It is authorized by the United States Armed Forces for a specific set of 
+           decorations and awards of the Department of Defense, Department of the Army, and Department 
+           of the Air Force.</p>
+          <a href="https://en.wikipedia.org/wiki/Oak_leaf_cluster" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
     
+    <div class="card" style="width: 18rem;">
+      <img src="hibuscus.jpg" class="card-img-top" alt="Hibiscus">
+      <div class="card-body">
+        <h5 class="card-title">Hibiscus</h5>
+        <p class="card-text">Hibiscus[2][3] is a genus of flowering plants in the mallow family, 
+          Malvaceae. The genus is quite large, comprising several hundred species that are native to 
+          warm temperate, subtropical and tropical regions throughout the world. Member species are 
+          renowned for their large, showy flowers and those species are commonly known simply as 
+          "hibiscus", or less widely known as rose mallow. Other names include hardy hibiscus, rose 
+          of sharon, and tropical hibiscus.</p>
+          <a href="https://en.wikipedia.org/wiki/Hibiscus" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
     
     
 
